@@ -1,5 +1,11 @@
 package myCandy;
 
+import def.big_js.Big;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * An example of a library programmed with JSweet. The produced Maven artifact
  * can be used by a regular Java program or by another JSweet program.
@@ -8,7 +14,6 @@ package myCandy;
  * generated in the 'dist' directory of this project).
  */
 public class API {
-
 	/**
 	 * Tells if the given number is a prime number or not.
 	 * 
@@ -29,6 +34,13 @@ public class API {
 			if (n % i == 0)
 				return false;
 		}
+
+		List<String> l = new ArrayList<>();
+		l.add("asdf");
+		l.stream();
+
+		java.math.BigInteger bigInt = BigInteger.ONE;
+
 		return true;
 	}
 
